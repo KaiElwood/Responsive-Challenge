@@ -12,9 +12,9 @@
 }
 
 .topBar p {
-  margin: 25px 25px;
+  margin: 20px 20px;
   text-align: center;
-  font-size: 2rem;
+  font-size: 6vw;
 }
 
 .top #links {
@@ -22,7 +22,7 @@
 }
 
 .top h1 {
-  font-size: 4rem;
+  font-size: 9vw;
   width: 100%;
   padding: 20px 0;
   text-align: center;
@@ -43,7 +43,7 @@
   margin: 100px 0;
   text-align: center;
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 6vw;
 }
 
 .content img {
@@ -51,8 +51,10 @@
   object-fit: cover;
   overflow: hidden;
   object-position: center;
-  width: 800px;
-  height: 800px;
+  /* top: 50%;
+  left: 50%; */
+  width: 200px;
+  height: 200px;
   padding: 50px 25px;
 }
 
@@ -60,14 +62,44 @@
 
 
 @media only screen and (min-device-width: 640px) {
+
+  .top {
+    height: 25%;
+    width: 100%;
+    background: aqua;
+    /* position: absolute; */
+  }
+
+  .top h1 {
+    font-size: 4rem;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    color: black;
+  }
+
+  .topBar p {
+    margin: 20px 20px;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0 5%;
+  }
+
   .content img {
     display: block;
     object-fit: cover;
     overflow: hidden;
     object-position: center;
-    width: 800px;
-    height: 800px;
+    width: 400px;
+    height: 400px;
     padding: 50px 25px;
+  }
+
+  .card a {
+    margin: 100px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3rem;
   }
 }
 
